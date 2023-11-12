@@ -6,7 +6,8 @@ import ru.netology.bdd.data.DataHelper;
 import ru.netology.bdd.page.DashboardPage;
 import ru.netology.bdd.page.LoginPage;
 
-import static java.nio.channels.FileChannel.open;
+
+import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static ru.netology.bdd.data.DataHelper.*;
 
